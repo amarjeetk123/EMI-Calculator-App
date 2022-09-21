@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/694a00980e.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="body">
+    <div class="box">
+        <input type="checkbox" id="check">
+        <label for="check" class="label">
+            <i class="fas fa-moon" id="moon"></i>
+            <i class="fas fa-sun " id="sun"></i>
+            <div class="ball"></div>
+        </label>
+
+    </div>
+    <h1 class="heading">EMI Calculator</h1>
+    <div class="container">
+        <div class="first">
+            <span class="text"> Total Amount:-</span>
+            <input type="number" class="input" id="amount_input">
+        </div>
+        <div class="second">
+            <span class="text"> Rate of Interest:- </span>
+            <input type="number" class="input" name="" id="rate_input">
+        </div>
+        <div class="third">
+            <span class="text"> Tenure in Month:- </span>
+            <input type="number" class="input" name="" id="month_input">
+        </div>
+        <div class="btns">
+            <button id="btn" onclick="getMonthlyEMI()">Get EMI</button>
+            <button id="btn" onclick="reset()">Reset</button>
+        </div>
+        <h1 id="output"></h1>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
