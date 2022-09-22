@@ -1,5 +1,5 @@
 # EMI Calculator App
- ### I have made a EMI Calculator app by the help of HTML,CSS and JavaScript.
+ ### I have made a EMI Calculator app with the help of HTML,CSS, and JavaScript.
 
 ## Technology Used:-
   - ` HTML ` 
