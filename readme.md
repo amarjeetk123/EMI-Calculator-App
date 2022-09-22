@@ -6,7 +6,7 @@
   - ` CSS ` 
   - ` JS ` 
 
-### Also The Web page has a theme Changer , So you can see the content in light mode as well as daek mode.
+### Also, The Web page has a theme Changer, So you can see the content in light mode as well as dark mode.
 
 ![](https://img.shields.io/badge/Project-04-pink)
  ![](https://img.shields.io/badge/JS-Project-yellow)
